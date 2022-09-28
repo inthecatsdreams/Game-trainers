@@ -31,12 +31,12 @@ namespace t5
         {
             if (Memlib.OpenProcess("plutonium-bootstrapper-win32"))
             {
-                label1.Text = "Connected";
+                label1.Text = "Status: Connected";
                 label1.ForeColor = Color.Green;
             }
             else
             {
-                label1.Text = "Something went wrong";
+                label1.Text = "Status: Something went wrong";
                 label1.ForeColor = Color.Red;
             }
         }
@@ -46,9 +46,9 @@ namespace t5
             if (checkBox1.Checked)
             {
                     //first weapon
-            Memlib.WriteMemory("base+0x1808F00", "int", "999999");
+                Memlib.WriteMemory("base+0x1808F00", "int", "999999");
                     //second weapon
-            Memlib.WriteMemory("base+1808F10", "int", "999999");
+                Memlib.WriteMemory("base+1808F10", "int", "999999");
 
              
             }
@@ -64,6 +64,14 @@ namespace t5
         private void button2_Click(object sender, EventArgs e)
         {
             Memlib.WriteMemory("base+180A6C8", "int", Int32.MaxValue.ToString());
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                Memlib.WriteMemory("base+2228FF8", "int", "3");
+            }
         }
     }
 }
