@@ -22,9 +22,10 @@ namespace t5
         public Mem Memlib = new Mem();
         private void Form1_Load(object sender, EventArgs e)
         {
-           
 
             
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,6 +34,8 @@ namespace t5
             {
                 label1.Text = "Status: Connected";
                 label1.ForeColor = Color.Green;
+                if (backgroundWorker1.IsBusy == false)
+                    backgroundWorker1.RunWorkerAsync();
             }
             else
             {
@@ -46,9 +49,7 @@ namespace t5
             if (checkBox1.Checked)
             {
                     //first weapon
-                Memlib.WriteMemory("base+0x1808F00", "int", "999999");
-                    //second weapon
-                Memlib.WriteMemory("base+1808F10", "int", "999999");
+                
 
              
             }
@@ -63,7 +64,7 @@ namespace t5
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Memlib.WriteMemory("base+180A6C8", "int", Int32.MaxValue.ToString());
+            Memlib.WriteMemory("base+180A6C8", "int", "999999999");
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
@@ -72,6 +73,32 @@ namespace t5
             {
                 Memlib.WriteMemory("base+2228FF8", "int", "3");
             }
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            while (true) //infinite loop
+            {
+                
+                
+                if (checkBox1.Checked) // ammo
+                {
+                    Memlib.WriteMemory("base+0x1808F00", "int", "999999");
+                    Memlib.WriteMemory("base+1808F10", "int", "999999");
+                    Memlib.WriteMemory("base+1808F18", "int", "999999");
+                    Memlib.WriteMemory("base+1808F08", "int", "999999");
+                    Memlib.WriteMemory("base+1808F20", "int", "999999");
+
+                }
+                if (checkBox3.Checked)
+                    Memlib.WriteMemory("base+0x167987C", "int", "250");
+
+            }
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
