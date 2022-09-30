@@ -30,7 +30,7 @@ namespace t5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (Memlib.OpenProcess("plutonium-bootstrapper-win32"))
+            if (Memlib.OpenProcess("ac_client"))
             {
                 label1.Text = "Status: Connected";
                 label1.ForeColor = Color.Green;
@@ -91,7 +91,7 @@ namespace t5
 
                 }
                 if (checkBox3.Checked)
-                    Memlib.WriteMemory("base+0x167987C", "int", "250");
+                    Memlib.FreezeValue("base+0x0017E0A8,0xEC", "int", "999");
 
             }
         }

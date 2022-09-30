@@ -1,0 +1,15 @@
+C:\Users\Ilya\source\repos\Assault Cube\bin\Debug\Assault Cube.exe.config
+C:\Users\Ilya\source\repos\Assault Cube\bin\Debug\Assault Cube.exe
+C:\Users\Ilya\source\repos\Assault Cube\bin\Debug\Assault Cube.pdb
+C:\Users\Ilya\source\repos\Assault Cube\bin\Debug\Memory.dll
+C:\Users\Ilya\source\repos\Assault Cube\bin\Debug\Memory.pdb
+C:\Users\Ilya\source\repos\Assault Cube\bin\Debug\Memory.xml
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault Cube.csproj.AssemblyReference.cache
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault Cube.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault_Cube.Form1.resources
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault_Cube.Properties.Resources.resources
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault Cube.csproj.GenerateResource.cache
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault Cube.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault Cube.csproj.CopyComplete
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault Cube.exe
+C:\Users\Ilya\source\repos\Assault Cube\obj\Debug\Assault Cube.pdb
