@@ -1,0 +1,13 @@
+C:\Users\Ilya\source\repos\T6\bin\Debug\T6.exe.config
+C:\Users\Ilya\source\repos\T6\bin\Debug\T6.exe
+C:\Users\Ilya\source\repos\T6\bin\Debug\T6.pdb
+C:\Users\Ilya\source\repos\T6\bin\Debug\Memory.dll
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.csproj.AssemblyReference.cache
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.Form1.resources
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.Properties.Resources.resources
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.csproj.GenerateResource.cache
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.csproj.CopyComplete
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.exe
+C:\Users\Ilya\source\repos\T6\obj\Debug\T6.pdb
