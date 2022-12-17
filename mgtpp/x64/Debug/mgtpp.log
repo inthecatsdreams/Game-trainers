@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\tractor\source\repos\mgtpp\main.cpp(12,38): warning C4090: 'argument': different '__unaligned' qualifiers
+  mgtpp.vcxproj -> C:\Users\tractor\source\repos\mgtpp\x64\Debug\mgtpp.exe
